@@ -1,0 +1,42 @@
+/*--------------------------v BASE STYLING v----------------------------*/
+:root {
+  --clr-primary-400: hsl(131, 40%, 45%);
+  --clr-accent-400: hsl(33, 72%, 47%);
+
+  --clr-neutral-100: hsl(0, 0%, 100%);
+  --clr-neutral-150: hsl(210, 60%, 98%);
+  --clr-neutral-200: hsl(211, 68%, 94%);
+  --clr-neutral-250: hsl(205, 33%, 90%);
+  --clr-neutral-300: hsl(219, 14%, 63%);
+  --clr-neutral-400: hsl(219, 12%, 42%);
+  --clr-neutral-800: hsl(224, 21%, 14%);
+
+  --font-primary: 'Lato', sans-serif;
+  --font-secondary: 'Poppins', sans-serif;
+  --fw-light: 300;
+  --fw-regular: 400;
+  --fw-medium: 500;
+  --fs-small: 0.875rem;
+  --fs-medium: 1rem;
+  --fs-large: 1.25rem;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-primary);
+  font-size: var(--fs-medium);
+  font-weight: var(--fw-medium);
+}
+
+a {
+  color: hsl(0, 0%, 0%);
+  text-decoration: none;
+}
+
+/*--------------------------^ BASE STYLING ^----------------------------*/

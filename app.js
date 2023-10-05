@@ -166,6 +166,18 @@ app.get('/search', async (req, res) => {
         recipe : recipes
     });
 });
+
+/************************************************************************/
+/* GET '/recipe' - Renders a page with the information for a specific   */
+/*                specific recipe. Typically accessed by clicking on a  */
+/*                'recipe preview' via the homepage or search results   */
+/************************************************************************/
+app.get('/recipe', async(req, res) => {
+    const recipeId = req.query.recipeId;
+    const recipe   = await getRecipeById(recipeId);
+    console.log(recipe);
+    // TODO - render page with recipe details
+});
 /*----------------------------^ APP ROUTES ^----------------------------*/
 
 /*----------------------------v START APP v-----------------------------*/

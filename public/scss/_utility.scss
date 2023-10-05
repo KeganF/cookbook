@@ -1,0 +1,65 @@
+/*------------------------v UTILITY CLASSES v---------------------------*/
+/*====== FONT FAMILT ========*/
+.ff-secondary {
+  font-family: var(--font-secondary);
+}
+
+/*======= FONT SIZES ========*/
+.fs-sm {
+  font-size: var(--fs-small);
+}
+
+.fs-md {
+  font-size: var(--fs-medium);
+}
+
+.fs-lg {
+  font-size: var(--fs-large);
+}
+
+/*====== FONT COLORS ========*/
+.fc-100 {
+  color: var(--clr-neutral-100);
+}
+
+/*======== BG COLORS ========*/
+.bg-prmy-400 {
+  background: var(--clr-primary-400);
+}
+
+.bg-accnt-400 {
+  background: var(--clr-accent-400);
+}
+
+/*========= PADDING =========*/
+.pad-4 {
+  padding: 0.25rem;
+}
+
+.pad-8 {
+  padding: 0.5rem;
+}
+
+.pad-16 {
+  padding: 1rem;
+}
+
+/*====== BORDER RADIUS ======*/
+.br-4 {
+  border-radius: 0.25rem;
+}
+
+.br-8 {
+  border-radius: 0.5rem;
+}
+
+.br-16 {
+  border-radius: 1rem;
+}
+
+/*========= SHADOWS =========*/
+.shadow-subtle {
+  box-shadow: 0 2px 6px 2px hsla(0, 10%, 10%, 0.2);
+}
+
+/*------------------------^ UTILITY CLASSES ^---------------------------*/

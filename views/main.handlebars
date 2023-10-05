@@ -3,12 +3,18 @@
   <input type="text" id="search" name="search">
 </form>
 
-{{#each recipe}}
-  <img src="{{imgSrc}}" alt="">
-  <p>{{label}}</p>
-  <p>
-  {{#each this.dietLabel}}
-    <span>{{tag}}</span>
+<div class="grid-cols h-gap-8 v-gap-8">
+  {{#each recipe}}
+  <a href="/recipe?recipeId={{recipeId}}">
+    <div class="card | flex-col flex-sb | pad-8 br-8 | shadow-subtle">
+      <img class="br-4" src="{{imgSrc}}" alt="">
+      <p class="ff-secondary">{{label}}</p>
+      <p>
+      {{#each this.dietLabel}}
+        <span class="tag | fs-sm pad-4 br-4 bg-prmy-400 fc-100">{{tag}}</span>
+      {{/each}}
+      </p>
+    </div>
+  </a>
   {{/each}}
-  </p>
-{{/each}}
+</div>
