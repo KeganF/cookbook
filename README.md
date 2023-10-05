@@ -4,14 +4,14 @@
 
 - [Overview](#overview)
     - [Screenshot](#screenshot)
-    - [What is this project?](#what-is-this-project)
+    - [What is this project?](#what-is-this-project?)
 
 ## Overview
 
 ### Screenshot
 ![](./project_images/basic_homepage_styling.png)
 
-### What is this project
+### What is this project?
 
 This project is part of a course I'm taking in my last year of college where I have been tasked with planning and creating some type of application.
 
