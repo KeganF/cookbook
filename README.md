@@ -1,6 +1,5 @@
 # cookbook
 
-## Screenshot
 ![](./project_images/basic_homepage_styling.png)
 
 ## Overview
